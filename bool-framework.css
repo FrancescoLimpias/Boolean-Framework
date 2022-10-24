@@ -1,4 +1,10 @@
 /* COMMON */
+:root{
+
+    /* grid layout */
+    
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -13,5 +19,24 @@
 
 .container-fluid{
     width: 100%;
+    max-width: 100%;
+}
+
+
+/* ROW */
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* COLUMN (12ths) */
+[class*="col-"]{
+    flex: 0 0 auto;
+}
+
+.col{
+    flex-grow: 1;
+    flex-basis: 0;
     max-width: 100%;
 }
