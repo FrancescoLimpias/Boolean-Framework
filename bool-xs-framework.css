@@ -21,7 +21,7 @@
 
 /* CONTAINERS */
 .container-xs {
-    max-width: 565px;
+    max-width: 560px;
     margin: 0 auto;
 }
 
@@ -107,7 +107,7 @@
 
 
 /* OFFSETS */
-[class*="col-off"] {
+[class*="-off-"] {
     --col-off-width: calc(var(--grid-unit) * var(--col-off-unit-n));
 
     margin-left: var(--col-off-width);
