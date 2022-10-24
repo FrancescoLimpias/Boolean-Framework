@@ -5,3 +5,13 @@
     box-sizing: border-box;
 }
 
+/* CONTAINERS */
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.container-fluid{
+    width: 100%;
+    max-width: 100%;
+}
